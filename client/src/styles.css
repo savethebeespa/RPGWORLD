@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  color: #1a1a1a;
+}
+
+.layout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.log ul {
+  max-height: 180px;
+  overflow-y: auto;
+}
